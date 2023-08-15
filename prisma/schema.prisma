@@ -51,3 +51,10 @@ model Post {
 
   @@map("posts")
 }
+
+model NewModal {
+  id String @id @default(uuid())
+}
+
+// npx prisma db pull
+// npx prisma db push
